@@ -1,0 +1,327 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>TastyBite Restaurant</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<!-- Bootstrap -->
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+
+<!-- AOS -->
+<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+<link rel="stylesheet" href="style.css">
+</head>
+
+
+<body>
+
+<header class="navbar" id="navbar">
+  <div class="logo-box">
+    <img src="./image/food.png" alt="logo" class="logo" />
+    <span class="brand-name">TastyBite</span>
+  </div>
+
+
+  <!-- TOGGLE ICON -->
+  <div class="menu-toggle" id="menuToggle">
+    <span></span>
+    <span></span>
+    <span></span>
+  </div>
+
+  <nav>
+    <ul class="nav-links" id="navLinks">
+      <li><a href="#home">Home</a></li>
+      <li><a href="#about">About</a></li>
+      <li><a href="#menu">Menu</a></li>
+      <li><a href="#gallery">Gallery</a></li>
+      <li><a href="#order">Order</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+  </nav>
+</header>
+
+
+<!-- HERO -->
+<section class="home" id="home">
+  <div class="home-container">
+
+    <!-- LEFT TEXT -->
+    <div class="home-text">
+      <h1>
+        Enjoy <span class="typing"></span>
+      </h1>
+
+      <p>
+        Authentic biryani made with fresh ingredients and rich traditional taste.
+      </p>
+
+      <a href="#menu" class="btn">
+        🍽️ Explore Menu
+      </a>
+    </div>
+
+    <!-- RIGHT IMAGE -->
+    <div class="home-image"  >
+      <div class="circle">
+      <img src="./image/khloe-arledge-ND3edEmzcdQ-unsplash.jpg" alt="Delicious Biryani">
+
+      <!-- <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQhlU1ib7lOUXZSCUpHe0qqqgUihYBr9YtisQ&s
+" > -->
+    </div>
+  </div>
+
+  </div>
+</section>
+
+<script src="script.js"></script> 
+
+<!-- ABOUT -->
+<section class="about-section" id="about">
+  <h2 >ABOUT</h2>
+
+  <img src="./image/glenov-brankovic-e4B5AvA7Jqo-unsplash.jpg" 
+  class="about-img" style="height: 500px;"
+  />
+
+  <div class="about-text">
+    <p>
+      We serve delicious food with fresh ingredients and traditional taste.
+      Customer satisfaction is our top priority.
+    </p>
+  </div>
+</section>
+
+<!-- MENU -->
+<section id="menu" class="section bg-light">
+  <div class="container">
+    <h2>OUR MENU</h2>
+    <div class="row g-4">
+      <div class="col-md-4" data-aos="fade-right">
+        <div class="card food-card">
+          <div class=" text-center" >
+            <img src="./image/b1.jpg" style="width: 250px; height:250px;">
+            <h5>Chicken Biryani</h5>
+            <p>₹180</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4" data-aos="fade-up">
+        <div class="card food-card">
+          <div class=" text-center">
+            <img src="./image/grill.jpg" style="width: 250px; height:250px">
+            <h5>Grill Chicken</h5>
+            <p>₹250</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4" data-aos="fade-left">
+        <div class="card food-card">
+          <div class="card-body text-center">
+            <img src="./image/if3.jpg" style="width: 250px; height:250px">
+            <h5>Veg Meals</h5>
+            <p>₹120</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-4" data-aos="fade-up">
+        <div class="card food-card">
+          <div class="card-body text-center">
+            <img src="./image/kf1.jpg" style="width: 250px; height:250px">
+            <h5>Korean Spicy Noodels</h5>
+            <p>₹200</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4" data-aos="fade-up">
+        <div class="card food-card">
+          <div class="card-body text-center">
+            <img src="./image/kf5.jpg" style="width: 250px; height:250px">
+            <h5>Sushi</h5>
+            <p>₹150</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4" data-aos="fade-up">
+        <div class="card food-card">
+          <div class="card-body text-center">
+            <img src="./image/koren.jpg" style="width: 250px; height:250px">
+            <h5>Bibimbap</h5>
+            <p>₹450</p>
+          </div>
+        </div>
+      </div>
+      
+    </div>
+  </div>
+</section>
+
+<!-- GALLERY -->
+
+
+<section class="food-gallery" id="gallery">
+  <h2>Food Gallery</h2>
+
+  <div class="gallery-grid">
+    <div class="gallery-item"><img src="./image/suchandra-varma-dugs7-vNbhQ-unsplash.jpg" /></div>
+    <div class="gallery-item"><img src="./image/mario-raj-vsnAIYA9bms-unsplash.jpg" /></div>
+    <div class="gallery-item"><img src="./image/fg2.jpg" /></div>
+    <div class="gallery-item"><img src="./image/fg3.jpg" /></div>
+
+    <div class="gallery-item"><img src="./image/michele-blackwell-rAyCBQTH7ws-unsplash.jpg" /></div>
+    <div class="gallery-item"><img src="./image/leo-roza-P_z_xlMGuEk-unsplash.jpg" /></div>
+    <div class="gallery-item"><img src="./image/deepal-tamang-5oF7d_hPJG4-unsplash.jpg" /></div>
+    <div class="gallery-item"><img src="./image/abhishek-sanwa-limbu-LR559Dcst70-unsplash.jpg" /></div>
+
+    <div class="gallery-item"><img src="./image/kimia-kazemi-uffD68TXB9M-unsplash.jpg" /></div>
+    <div class="gallery-item"><img src="./image/allen-rad-JBIK4QZOFfc-unsplash.jpg" /></div>
+    <div class="gallery-item"><img src="./image/pranav-kumar-jain-U_jLPm_cR2Y-unsplash.jpg" /></div>
+    <div class="gallery-item"><img src="./image/monika-grabkowska-yuAEcsAe4lk-unsplash.jpg" /></div>
+  </div>
+
+
+</section>
+
+
+<!-- ORDER FORM -->
+ <section class="order-bg" id="order">
+  <div class="order">
+  <h2 >ORDER</h2>
+  <img src="./image/order.webp ">
+  <div class="overlay">
+
+    <!-- ORDER FORM -->
+     
+    <div class="order-form" >
+      <h2>Order Your Food</h2>
+
+      <input type="text" placeholder="Your Name">
+      <input type="tel" placeholder="Mobile Number">
+
+      <select>
+        <option>Select Dish</option>
+        <option>Chicken Biryani</option>
+        <option>Mutton Biryani</option>
+        <option>Veg Meals</option>
+      </select>
+
+      <input type="number" placeholder="Quantity">
+
+      <button>Place Order</button>
+    </div>
+     </div>
+  </div>
+  
+<!-- SUCCESS POPUP -->
+<!-- Success Popup -->
+<div class="popup" id="successPopup">
+  <div class="popup-content">
+    <div class="tick">✔</div>
+    <h2>Order Successful!</h2>
+    <p>Your order has been placed successfully 🎉</p>
+    <button onclick="closePopup()">OK</button>
+  </div>
+</div>
+
+<!-- Success Sound -->
+<audio id="successSound">
+  <source src="success.mp3" type="audio/mpeg">
+</audio>
+
+<!-- Place Order button -->
+<button onclick="placeOrder()">Place Order</button>
+</div>
+
+  <!-- Center top heading -->
+   <div class="heading">
+  <h2>Address</h2>
+</div>
+
+<section class="address-section">
+
+  <div class="address-container">
+
+    <!-- LEFT : Address box -->
+    <div class="address-box">
+      <h3>TASTYBITE RESTAURANT</h3>
+
+      <p>
+        1903 A Wing,<br>
+        Elphinstone Road,<br>
+        Praabathevi West,<br>
+        Mumbai, India.
+      </p>
+
+      <p>📞 +91 0427-3566553</p>
+      <p>✉️ tastybite@gmail.com</p>
+    </div>
+
+    <!-- RIGHT : Map -->
+    <div class="map-box">
+      <iframe
+        src="https://www.google.com/maps?q=HYBE%20Yongsan%20Seoul&output=embed
+"
+        loading="lazy">
+      </iframe>
+    </div>
+
+  </div>
+
+</section>
+
+
+<!-- OWNER SECTION -->
+<section class="owner" id="owner">
+  <div class="owner-container">
+
+    <div class="owner-image">
+      <img src="./image/owner1.jpg" alt="Restaurant Owner">
+    </div>
+
+    <div class="owner-content">
+      <h2>Meet Our Founder</h2>
+      <h3>Ms. SUSMITHA THILLAIAMBALAM</h3>
+      <p>
+        With over 15 years of culinary experience, Susmitha founded 
+        TastyBite with a passion for authentic flavors and quality ingredients. 
+        His vision is to deliver unforgettable dining experiences.
+      </p>
+
+       <!-- AWARDS -->
+      <div class="awards">
+        <div class="award-box">🏆 Best Chef 2022</div>
+        <div class="award-box">⭐ 5 Star Rated</div>
+        <div class="award-box">🍽️ 15+ Years Experience</div>
+      </div>
+
+      <!-- SOCIAL ICONS -->
+      <div class="social-icons">
+        <a href="#">🌐</a>
+        <a href="#">📘</a>
+        <a href="#">📸</a>
+        <a href="#">🐦</a>
+      </div>
+      <a href="#contact" class="btn">Contact Owner</a>
+    </div>
+
+  </div>
+</section>
+
+
+
+<!-- FOOTER -->
+<footer class="text-center py-3 bg-black text-light">
+  © 2026 
+  TastyBite Restaurant
+</footer>
+
+ <!-- <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script> -->
+<script src="script.js "defer></script> 
+
+
+</body>
+</html>
