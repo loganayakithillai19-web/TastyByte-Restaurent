@@ -545,8 +545,8 @@ font-weight: bold;
 }
 @media screen and (max-width:478px) {
   .order-form{
-  width:220px;
-  left:50px;
+  width:280px;
+  left:20px;
   }
   
 }
